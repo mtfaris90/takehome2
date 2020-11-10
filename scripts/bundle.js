@@ -9,6 +9,6 @@ if (!commits) {
 }
 
 let result = sh('git bundle create take-home-exercise.bundle HEAD master');
-console.log('Nice work, you created take-home-exercise.bundle.');
-console.log('Please upload it using the link sent to you in the initial email.');
+console.log('Great! You created take-home-exercise.bundle.');
+console.log('Please see instructions in README to submit your app.');
 
