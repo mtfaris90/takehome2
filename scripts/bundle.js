@@ -8,7 +8,7 @@ if (!commits) {
   process.exit(1);
 }
 
-let result = sh('git bundle create take-home-exercise.bundle HEAD master');
+let result = sh('git bundle create take-home-exercise.bundle HEAD main');
 console.log('Great! You created take-home-exercise.bundle.');
 console.log('Please see instructions in README to submit your app.');
 
