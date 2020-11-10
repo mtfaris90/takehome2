@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './TeamMember.css';
-import EmptyAvatar from '../../assets/empty_avatar.svg';
+import React from "react";
+import PropTypes from "prop-types";
+import "./TeamMember.css";
+import EmptyAvatar from "../../assets/empty_avatar.svg";
 
 class TeamMember extends React.PureComponent {
   static propTypes = {
@@ -9,13 +9,14 @@ class TeamMember extends React.PureComponent {
     title: PropTypes.string.isRequired,
     photoUrl: PropTypes.string,
     story: PropTypes.string,
-    favoriteColor: PropTypes.string
+    favoriteColor: PropTypes.string,
+    toggleModal: PropTypes.func
   };
 
   static defaultProps = {
     photoUrl: EmptyAvatar,
     story: null,
-    favoriteColor: '#3466F2'
+    favoriteColor: "#3466F2",
   };
 
   render() {
@@ -32,7 +33,7 @@ class TeamMember extends React.PureComponent {
           <h2 className="title">{this.props.title}</h2>
           <h1 className="name">{this.props.name}</h1>
         </header>
-        <div className="body">{this.props.story}</div>
+        <div className="body">{this.props.story || <button type="button" onClick={this.props.toggleModal}>Join The Team!</button>}</div>
         <footer style={{ backgroundColor: this.props.favoriteColor }}>
           <div className="full-width-flex-box">
             <div className="one-third-flex-box stat">9.0</div>
