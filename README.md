@@ -1,8 +1,6 @@
 # JSP Take-Home Coding Challenge #2
 
-This full-stack exercise involves building a form component in React that also makes a request to the Node.js/Express.js backend. We imagine you should spend around four hours at minimum to implement this feature, but want to emphasize that there is no specific deadline, or ticking clock for the implementation time. You can feel free to break the work up over multiple days. The entire point of this exercise is to get a good sense of how you build software.
-
-Also, please keep in mind that you are not specifically limited to four hours. If you want to spend more time than that, using this as an opportunity to learn a new library or technology, or just generally making it more awesome, you are of course free to do so.
+This full-stack exercise involves building a form component in React that also makes a request to the Node.js/Express.js backend. You should spend around four hours at minimum to implement this feature, but there is no specific deadline or ticking clock for the implementation. Feel free to break the work up over multiple days. The point of this exercise is simply to get a good sense of how you build software.
 
 ## Getting Set Up
 
@@ -32,20 +30,20 @@ Below is a list of user stories corresponding to our acceptance criteria.
 
 1. I can click a button inside the empty "NEW TEAMMATE" card at the bottom that says 'Join the team!'.
 
-1. Clicking the 'Join the team!' button displays a form allowing me to fill out all of my team member information as per the data model (see `backend/model.js`).
+2. Clicking the 'Join the team!' button displays a form allowing me to fill out all of my team member information as per the data model (see `backend/model.js`).
 
-1. Filling out the form will create a new team member in the database that persists on reload.
+3. Filling out the form will create a new team member in the database that persists on reload.
 
-1. I can see team member cards for all of the new team members I have created.
+4. I can see team member cards for all of the new team members I have created.
 
 ## Going Above and Beyond the Requirements
 
-Given the time expectations of this exercise, we don't expect anyone to submit anything super fancy, but if you find yourself with extra time, any extra credit item(s) that showcase your unique strengths would be awesome!
+Given the time expectations of this exercise, we don't expect anyone to submit anything super fancy, but if you find yourself with extra time, feel free to add items to showcase your unique strengths.
 
 ## Submitting the Assignment
 
 When you have finished the assignment, create a bundle of your work by running `npm run bundle` in the repo root.
 
-This generates a bundle file called `take-home-exercise` based on your local master branch. Return that file to us via e-mail, and we'll review your code within 1-2 days.
+This generates a bundle file called `take-home-exercise` based on your local master branch. Upload this file to your Google Drive using the same account that you use for JSP. Then, use [this form](https://forms.gle/LQYm3ohiYc9Gtf7AA) to share the file for final submission.
 
 Good luck!
