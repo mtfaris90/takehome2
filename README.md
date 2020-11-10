@@ -42,8 +42,14 @@ Given the time expectations of this exercise, we don't expect anyone to submit a
 
 ## Submitting the Assignment
 
-When you have finished the assignment, create a bundle of your work by running `npm run bundle` in the repo root.
+### Option 1 (Preferred)
 
-This generates a bundle file called `take-home-exercise` based on your local master branch. Upload this file to your Google Drive using the same account that you use for JSP. Then, use [this form](https://forms.gle/LQYm3ohiYc9Gtf7AA) to share the file for final submission.
+Upload your repo (with README, including instructions on how to run your app) to your GitHub. Either make it public or share to the HRJSP1 team. Then use [this form](https://forms.gle/LQYm3ohiYc9Gtf7AA) to submit your repo.
+
+### Option 2
+
+Create a bundle of your work by running `npm run bundle` in the repo root.
+
+This generates a bundle file called `take-home-exercise` based on your local master branch. Upload this file to your Google Drive using the same account that you use for JSP. Then, use [this form](https://forms.gle/LQYm3ohiYc9Gtf7AA) to submit the file.
 
 Good luck!
